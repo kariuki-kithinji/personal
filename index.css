@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align children horizontally */
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for the container */
+}
+
+.intro-mesaage {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333; /* Dark grey color for the text */
+}
+
+.svg-center {
+    margin-bottom: 20px;
+}
+
+#alertButton {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-self: center; /* Ensure the button is centered in the flex container */
+}
+
+#alertButton:hover {
+    background-color: #0056b3;
+}
